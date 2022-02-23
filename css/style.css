@@ -15,24 +15,17 @@
   height: 100%;
   margin: 0 auto;
   position: relative;
-  
 }
-
 
 header {
   /* background-color: #255EE9; */
-  background-color: #255EE9;
+  background-color: #255ee9;
   height: 11vh;
   width: 100vw;
   font-size: 0.8em;
-  
-  
-  
-  
 }
 
 .logo {
-
   position: absolute;
   top: 50%;
   left: 0%;
@@ -40,22 +33,21 @@ header {
 }
 
 .log {
-  
-    position: absolute;
-    top: 50%;
-    right: 0%;
-    transform: translate(0, -50%);
-    font-size: 0.8em;
+  position: absolute;
+  top: 50%;
+  right: 0%;
+  transform: translate(0, -50%);
+  font-size: 0.8em;
 }
 
 .btn {
-    display: inline-block;
-    cursor: pointer;
-    border: none;
-    padding: 0.5em 1em;
-    font-weight: 700;
-    
-    border-radius: 28px;
+  display: inline-block;
+  cursor: pointer;
+  border: none;
+  padding: 0.5em 1em;
+  font-weight: 700;
+
+  border-radius: 28px;
 }
 
 ul {
@@ -84,108 +76,124 @@ li > a {
   background-position: center;
   position: relative;
   margin-bottom: 8%;
-  
 }
 
-.jumbo-text{
-    width: 43%;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -25%);
-    color: white;
-    
-    
-    
+.jumbo-text {
+  width: 43%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -25%);
+  color: white;
 }
 
-
-h1{
-    text-align: center;
-    font-size: xxx-large;
-    
+h1 {
+  text-align: center;
+  font-size: xxx-large;
 }
 
-h1 + p{
-    padding-top: 4%;
-    padding-bottom: 3%;
-    text-align: center;
+h1 + p {
+  padding-top: 4%;
+  padding-bottom: 3%;
+  text-align: center;
 }
 
-
-
-.down-mac{
-    float: left;
-    margin-left: 20%;
-    margin-right: 3%;
-    padding: 0.7em 1em;
-    font-weight: 600;
-    
-    
+.down-mac {
+  float: left;
+  margin-left: 20%;
+  margin-right: 3%;
+  padding: 0.7em 1em;
+  font-weight: 600;
 }
 
-.online-discord{
-    float: left;
-    background: black;
-    color: white;
-    padding: 0.7em 1em;
-    font-weight: 600;
-    
+.online-discord {
+  float: left;
+  background: black;
+  color: white;
+  padding: 0.7em 1em;
+  font-weight: 600;
 }
 
-
-.row{
-    width: 75%;
-    margin: 0 auto;
-
-    
-    
+.row {
+  width: 75%;
+  margin: 0 auto;
 }
 
-.flot-left{
-    float: left;
-    width: 50%;
-
+.flot-left {
+  float: left;
+  width: 50%;
 }
 
-.flot-right{
-    float: right;
-    width: 50%;
-
+.flot-right {
+  float: right;
+  width: 50%;
 }
 
-.text-row{
-    float: left;
-    width: 25vw;
-    padding-top: 3%;
-    padding-left: 10%;
+.text-row {
+  float: left;
+  width: 25vw;
+  padding-top: 3%;
+  padding-left: 10%;
 }
 
-h2{
-    line-height: 1.4em;
-    margin-bottom: 0.6em;
-    font-size: 35px;
+h2 {
+  line-height: 1.4em;
+  margin-bottom: 0.6em;
+  font-size: 35px;
 }
 
 h2 + p {
-    line-height: 1.2em;
+  line-height: 1.2em;
 }
 
-.bg-wave{
+.bg-wave {
+  background-color: #c3ccde;
+}
+
+.wave {
+  filter: invert(84%) sepia(25%) saturate(145%) hue-rotate(181deg)
+    brightness(94%) contrast(90%);
+  margin-top: -15px;
+  margin-bottom: -24px;
+}
+
+.rotation {
+  transform: rotate(180deg);
+}
+
+.row-big {
+  text-align: center;
+}
+
+h3 {
+  margin-bottom: 2vh;
+  text-align: center;
+}
+
+.start {
+  background: url(../img/stars.svg);
+  background-size: contain;
+}
+
+.blue-center-button {
+  position: relative;
+  right: -20%;
+  margin-bottom: 5vh;
+}
+
+
+footer{
+    
     height: 60vh;
-    background-color: #C3CCDE;
-    
-
+    background-color: #255ee9;
 }
 
-.wave{
-    filter: invert(84%) sepia(25%) saturate(145%) hue-rotate(181deg) brightness(94%) contrast(90%);
-    margin-top: -15px;
-    margin-bottom: -24px;
+.first-foot{
+    padding-top: 5vh;
 }
 
-.rotation{
-    transform: rotate(180deg);
-    
-}
+.list-float
 
+.endlist{
+    display: default;
+}
