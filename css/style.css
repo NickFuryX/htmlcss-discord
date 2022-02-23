@@ -27,6 +27,7 @@ header {
   font-size: 0.8em;
   
   
+  
 }
 
 .logo {
@@ -51,7 +52,7 @@ header {
     cursor: pointer;
     border: none;
     padding: 0.5em 1em;
-    
+    font-weight: 700;
     
     border-radius: 28px;
 }
@@ -76,8 +77,57 @@ li > a {
 
 .jumbo {
   width: 100vw;
-  height: 50vh;
+  height: 70vh;
   background: url(../img/jumbo.png);
   background-size: cover;
   background-position: center;
+  position: relative;
+  
 }
+
+.jumbo-text{
+    width: 43%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -25%);
+    color: white;
+    
+    
+}
+
+
+h1{
+    text-align: center;
+    font-size: xxx-large;
+    
+}
+
+h1 + p{
+    padding-top: 4%;
+    padding-bottom: 3%;
+    text-align: center;
+}
+
+
+
+.down-mac{
+    float: left;
+    margin-left: 20%;
+    margin-right: 3%;
+    padding: 0.7em 1em;
+    font-weight: 600;
+    
+    
+}
+
+.online-discord{
+    float: left;
+    background: black;
+    color: white;
+    padding: 0.7em 1em;
+    font-weight: 600;
+    
+}
+
+
