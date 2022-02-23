@@ -4,7 +4,7 @@
   padding: 0;
 }
 
-.clearfix {
+.clearfix::after {
   content: "";
   display: table;
   clear: both;
@@ -25,6 +25,7 @@ header {
   height: 11vh;
   width: 100vw;
   font-size: 0.8em;
+  
   
   
   
@@ -82,6 +83,7 @@ li > a {
   background-size: cover;
   background-position: center;
   position: relative;
+  margin-bottom: 8%;
   
 }
 
@@ -92,6 +94,7 @@ li > a {
     left: 50%;
     transform: translate(-50%, -25%);
     color: white;
+    
     
     
 }
@@ -130,4 +133,59 @@ h1 + p{
     
 }
 
+
+.row{
+    width: 75%;
+    margin: 0 auto;
+
+    
+    
+}
+
+.flot-left{
+    float: left;
+    width: 50%;
+
+}
+
+.flot-right{
+    float: right;
+    width: 50%;
+
+}
+
+.text-row{
+    float: left;
+    width: 25vw;
+    padding-top: 3%;
+    padding-left: 10%;
+}
+
+h2{
+    line-height: 1.4em;
+    margin-bottom: 0.6em;
+    font-size: 35px;
+}
+
+h2 + p {
+    line-height: 1.2em;
+}
+
+.bg-wave{
+    height: 60vh;
+    background-color: #C3CCDE;
+    
+
+}
+
+.wave{
+    filter: invert(84%) sepia(25%) saturate(145%) hue-rotate(181deg) brightness(94%) contrast(90%);
+    margin-top: -15px;
+    margin-bottom: -24px;
+}
+
+.rotation{
+    transform: rotate(180deg);
+    
+}
 
